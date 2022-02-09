@@ -1,0 +1,27 @@
+.card{
+    display: flex;
+    width: 450px;
+    background-color: rgb(4, 95, 75);
+    color: white;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: rgba(93, 231, 178, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    .container-img{
+        width: 200px;
+        height: 200px;
+        img{
+            width: 100%;
+        }
+    }
+    .detalles-card{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 10px;
+        span{
+            margin-top: 3px;
+        }
+    }
+}
